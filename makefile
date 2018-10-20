@@ -10,7 +10,7 @@ $(P): $(P).o
 	g++ $(CFLAGS) $(P).o -o $(P)
 
 run: all
-	./$(P) short_trace1.txt output.txt
+	./$(P) long_trace1.txt output.txt
 
 clean:
 	rm $(P).o
